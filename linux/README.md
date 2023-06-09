@@ -1,22 +1,22 @@
 # Basic of Linux
 
-## Some Important Directories
+## [Some Important Directories](important.md)
 
-- Home Directory: */root*, */home/username*
-- Use Executable: */bin*, */usr/bin*, */usr/local/bin*
-- System Executables: */sbin*, */usr/sbin*, */usr/local/sbin*
-- Other Mountpoints: */media*, */mnt*
-- Configuration: */etc*
-- Temporary Files: */tmp*
-- Kernel and Bootloader: */boot*
-- Server Data: */var*, */src*
-- Sytem Information: */proc*, */sys*
-- Shared Libraries: */lib*, */usr/lib*, */usr/local/lib*
+## [More Commands](terminal.md)
 
-## More Commands
+## Vim Editor
 
-- *mkdir ``<directory>``*: create a new directory
-- *touch ``filename.ext``*: create a new file
-- *touch ``filename{1..n}.ext``*: create n file with format ```filenameI.ext```
-- *cp ``file_source`` ``directory_destination``*: copy file from current path to directory destination
-- *cp -r ``directory_source`` ``directory_destination``*: copy directory from current path to directory destination
+- *Esc*: switch to [COMMAND MODE](command.md)
+- *I / Insert*: switch to INSERT MODE
+- [Extenal Mode](extenal.md): Extended Mode is used for save and quit or save without quit using "Esc" Key with":"
+
+## Types of files in Linux
+
+| File type    |   First Character   | Description |
+| ---          |   ---               |    ---  |
+| Regular file |   -                 | Normal file such as text data, or executable files|
+| Directory    |   d                 | Files that are lists of other files |
+| Link         |   l                 | A shortcut that points to the location of the actual file |
+| Special file |  c                  | Mechanism used for input and ouput, such as file in /dev |
+| Socket       |   s                 | A special file that provides inter-process networking protected by the file system's access control |
+| Pipe       |   p   | A special file that allows processes to communicate with each other without using network socket semantics |
