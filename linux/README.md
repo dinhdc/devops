@@ -13,7 +13,7 @@
 ## Types of files in Linux
 
 | File type    |   First Character   | Description |
-| ---          |   ---               |    ---  |
+| ---          |   ---               |    ---      |
 | Regular file |   -                 | Normal file such as text data, or executable files|
 | Directory    |   d                 | Files that are lists of other files |
 | Link         |   l                 | A shortcut that points to the location of the actual file |
