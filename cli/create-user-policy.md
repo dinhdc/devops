@@ -60,7 +60,6 @@ vi create-login-profile.json
 ```json
 {
   "Version": "2012-10-17",
-  "Sid": "ChangePasswordPolicy",
   "Statement": [
     {
         "Effect": "Allow",
